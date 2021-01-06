@@ -25,7 +25,7 @@ public class App {
             else {
                 break; 
             }
-        } while ((guessedNumber > randomNumber) || (guessedNumber < randomNumber));
+        } while ((guessedNumber > randomNumber) || (guessedNumber < randomNumber)); // Test Comment
         
         System.out.println("Correct! The random number was " + randomNumber + ".");
 
